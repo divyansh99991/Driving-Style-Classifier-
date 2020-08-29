@@ -11,8 +11,8 @@ There are different approaches to the problem
 This involved reading about different statistical models and research paper in the vicinity of this topic.
 Bayes' theorem, Kalman filters, Neural networks and about Hidden Markov Models (HMMs) and Markov Chain.
 The model will use past trajectories as training data and continue to predicts spatial coordinates that further form the probable trajectory. 
-I will then choose one of the curve for which I'll make my initial model, though a model for interaction with nearby road-agents needs to be considered Initially for simplicity I'll not consider the data where these agents were accounted for and only work on the left ones(50-x drivers)
-Next part will be the data pre-processing, so that it can be used by our model 
-Then I'll learn about the application part of the chosen model and apply it on our data at that particular curve.
-So at the end of the month of December I hope to achieve prediction of probable future trajectory at one of the chosen curve (which can later be expanded for all of the curves) without taking road-agents into account.
+I randomly chose one of the curve for which I'll make my initial model, though a model for interaction with nearby road-agents needs to be considered Initially for simplicity I'll not consider the data where these agents were accounted for and only work on the left ones(50-x drivers){~47}
+Next part will be the data pre-processing, so that it can be used by our model {k-means}
+Then I applied the chosen model on our data at that particular curve.{SVM and S3VM}
+It can later be expanded to all the curves
 
